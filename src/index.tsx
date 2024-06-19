@@ -2,7 +2,7 @@ import { serve } from '@hono/node-server'
 import { Hono } from 'hono'
 import type { FC } from 'hono/jsx'
 import { Octokit } from '@octokit/core'
-import { css, cx, keyframes, Style } from 'hono/css'
+import { css, Style } from 'hono/css'
 
 require('dotenv').config()
 
@@ -54,7 +54,7 @@ const Layout: FC = (props) => {
             border-bottom-color: black; /* Bottom border for first row items */
           }
         `}</Style>
-        <meta http-equiv="refresh" content="600"></meta>
+        <meta http-equiv="refresh" content="10"></meta>
         <title>PR Watcher</title>
       </head>
       <body>{props.children}</body>
