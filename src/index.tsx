@@ -32,7 +32,7 @@ const Layout: FC = (props) => {
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 18rem;
+            font-size: 9rem;
             height: 160px;
             box-sizing: border-box;
           }
