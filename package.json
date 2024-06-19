@@ -1,0 +1,17 @@
+{
+  "name": "pi-dash",
+  "scripts": {
+    "dev": "tsx watch src/index.tsx"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.11.3",
+    "@octokit/core": "^6.1.2",
+    "dotenv": "^16.4.5",
+    "hono": "^4.4.6",
+    "octokit": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1"
+  }
+}
