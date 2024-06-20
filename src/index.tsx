@@ -3,8 +3,9 @@ import { Hono } from 'hono'
 import type { FC } from 'hono/jsx'
 import { Octokit } from '@octokit/core'
 import { css, Style } from 'hono/css'
+import dotenv from 'dotenv'
 
-require('dotenv').config()
+dotenv.config()
 
 const app = new Hono()
 
