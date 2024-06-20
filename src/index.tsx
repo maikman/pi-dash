@@ -42,7 +42,7 @@ const Layout: FC = (props) => {
           }
 
           .warn-box {
-            background-color: #8f2a0a;
+            background-color: red;
           }
 
           .grid-item:nth-child(odd) {
